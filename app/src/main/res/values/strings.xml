@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">DC Bookstore</string>
+    <string name="title_welcome">Welcome to Douglas Bookstore!</string>
+    <string name="searchHintCourse">ex) mobile app dev...</string>
+    <string name="searchHintBookTitle">ex) Android Boot Camp...</string>
+    <string name="searchHintDepartment">ex) CSIS OR 3175</string>
+    <string name="searchBtn">Search</string>
+    <string name="sample_book_name">Android Boot Camp for Developers Using JAVA</string>
+    <string name="rvEditText">Leave your comment here</string>
+    <string name="rvBtn">Add Review</string>
+    <string name="infoBtnBuy">BUY NOW</string>
+    <string name="infoTxtSeeRv">add or see all reviews</string>
+    <string name="infoTxtFailed">Failed to load image from online</string>
+    <string name="infoTxtWarning">The image above may differ from the actual book</string>
+    <string name="shfTxt">Your Bookshelf</string>
+    <string-array name="searchSpinner">
+        <item>Course Name</item>
+        <item>Book Title</item>
+        <item>Department</item>
+    </string-array>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_bookshelf">Book Shelf</string>
+    <string name="title_help">Help</string>
+    <string name="imgViewSchool">douglas college</string>
+    <string name="searchTxtView">Search By :</string>
+    <string name="searchEditTxtHint">Search</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="helpTxtView" tools:ignore="ExtraTranslation"><u>770 Royal Avenue\nNew Westminster, BC V3M 5Z5</u></string>
+    <string name="helpBtnMaps"> See Location </string>
+    <string name="rvTxtNoReview">Please Add Your Review</string>
+    <string name="noReviewsYet">No reviews yet</string>
+    <string name="shfTxtNoBook">Your bookshelf is empty.</string>
+    <string name="searchTxtNoResult">No Results Found</string>
+    <string name="helpTxtViewPhone">604.527.5015</string>
+    <string name="helpTxtViewEmail">bookstore@douglascollege.ca</string>
+    <string name="helpTxtViewHour">\nMonday to Friday: 9:00 AM - 4:00 PM</string>
+    <string name="helpTxtViewWeb">https://bookstore.douglascollege.ca/</string>
+
+</resources>

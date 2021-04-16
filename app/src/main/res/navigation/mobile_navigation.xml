@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <!-- Four fragments in Navigation Activity.
+        (fragment_home, fragment_search, fragment_bookshelf, and fragment_help)-->
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.douglasbookstore.ui.home.HomeFragment"
+        android:label="@string/title_welcome"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.douglasbookstore.ui.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_bookshelf"
+        android:name="com.example.douglasbookstore.ui.bookshelf.BookShelfFragment"
+        android:label="@string/title_bookshelf"
+        tools:layout="@layout/fragment_bookshelf" />
+
+    <fragment
+        android:id="@+id/navigation_help"
+        android:name="com.example.douglasbookstore.ui.help.HelpFragment"
+        android:label="@string/title_help"
+        tools:layout="@layout/fragment_help" />
+</navigation>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/headerBookID"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="0"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/headerBookName"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.7"
+        android:background="@drawable/rounded_background_dark"
+        android:ellipsize="end"
+        android:maxLines="2" />
+
+    <TextView
+        android:id="@+id/headerDepCode"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.18"
+        android:background="@drawable/rounded_background" />
+
+    <TextView
+        android:id="@+id/headerSection"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.09"
+        android:background="@drawable/rounded_background_dark" />
+
+    <TextView
+        android:id="@+id/headerCheckBoxBookshelf"
+        android:layout_width="16dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.05"
+        android:background="@drawable/rounded_background" />
+
+</LinearLayout>

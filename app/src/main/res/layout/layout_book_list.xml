@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/listLinearItem">
+
+    <TextView
+        android:id="@+id/textViewBookID"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="0"
+        android:background="#C3E99E9E"
+        android:gravity="center"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textViewBookName"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="0.7"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="2" />
+
+    <TextView
+        android:id="@+id/textViewDepCode"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="0.18"
+        android:gravity="center"
+        android:paddingLeft="14dp"
+        android:paddingRight="0dp" />
+
+    <TextView
+        android:id="@+id/textViewSection"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="0.09"
+        android:gravity="center" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBookshelf"
+        android:layout_width="14dp"
+        android:layout_height="28dp"
+        android:layout_weight="0.05"
+        android:background="@drawable/custom_check_box"
+        android:button="@null" />
+
+
+</LinearLayout>

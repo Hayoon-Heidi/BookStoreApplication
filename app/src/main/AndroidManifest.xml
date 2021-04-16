@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.douglasbookstore">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_dc"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_dc_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBeIuNrWqGIYOrEzgP7YZHOt-D8XxCN82Q" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+        <!-- Navigation Activity works as Main Activity in this application. -->
+        <activity android:name=".NavigationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".BookInfoActivity"></activity>
+        <activity android:name=".BookReviewActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" ></activity>
+    </application>
+
+</manifest>
