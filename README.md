@@ -1,8 +1,12 @@
-# BookstoreProject
+# Douglas College Bookstore Application 
 
- Douglas College Bookstore Application is a waiting-free bookstore for Douglas College students. It lets students connect to college textbook resources anywhere, any time. 
- Search textbooks by title, course name, and department and share reviews of each textbook. You can save your favorite books to your bookshelf. Make your own purchase list of textbooks in a much easier way!
-
+ Douglas College Bookstore Application is a waiting-free bookstore for Douglas College students. It lets students connect to college textbook resources anywhere, any time. Users are able to get information about textbooks using the search function. Information includes price, author, reviews by students, and the courses that use the textbooks. Also, the application provides a contact number and the location of the bookstore.
+ 
+ 2019 Fall Semester Mobile Application Development Group 
+ 
+ Android Studio. (Java, SQLite)
+ 
+ 
 # Dependencies
 
     dependencies {
